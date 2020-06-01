@@ -1,0 +1,36 @@
+/**********************
+TESTS
+********************** /
+body{
+    background-color: red;
+}
+/**/
+
+/**********************
+PRINCIPAL
+**********************/
+@font-face{
+    font-family: 'courgette';
+    src: url('../fonts/Courgette/Courgette-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'oswald';
+    src: url('../fonts/Oswald/Oswald-VariableFont_wght.ttf')
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'courgette', sans-serif;
+}
+
+p, span, li{
+    font-family: 'oswald', sans-serif;
+}
+
+/**********************
+NAV
+**********************/
+
+/**********************
+HEADER
+**********************/
