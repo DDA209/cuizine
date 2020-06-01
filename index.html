@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cui'zine</title>
-        <link rel="icon" tyype="image/x-icon" href="favicon.png" />
+        <link rel="icon" tyype="image/png" href="./img/logo_square_black.png" />
         <link rel="stylesheet" href="./css/all.min.css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/main.css" />
@@ -14,19 +14,44 @@
     </head>
     <body>
 
-        <div class="container top"> <!-- Container regroupant la NAV et le HEADER pour afficher le background-->
-            <nav class="navbar navbar-light">
-                <a class="nav-link" href="#"><h2>Cui'zine</h2></a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="./index.html#"><h2>Cui'zine</h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="container">
-        
-            <header class="row">
-                <figuire>
-                <h1>Cui'zine</h1>
-                <h2>Le mag cuisine</h2>
-                </figuire>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./xxx.html#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./xxx.html#">Equipe</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./xxx.html#">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./xxx.html#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container mt-n5"><!-- -fluid -->
+
+            <header class="row mt-n5 align-items-center header">
+                <div class="col12 mt-n5 bg">
+                    <p class="mx-auto">
+                        <figure class="figure">
+                            <img src="./img/logo_square_white.png" alt="Logo du blog représentant une cuillère et une fourchette dans un assiette" />
+                            <figcaption class="figure-caption text-center">
+                                <h1>Cui'zine</h1>
+                                <h2>Le mag cuisine</h2>
+                            </figcaption>
+                        </figure>
+                    </p>
+                </div>
             </header>
 
             <main class="row">

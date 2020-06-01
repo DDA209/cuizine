@@ -1,8 +1,8 @@
 /**********************
 TESTS
-********************** /
+**********************/
 body{
-    background-color: red;
+    background-color: #000000;
 }
 /**/
 
@@ -10,13 +10,13 @@ body{
 PRINCIPAL
 **********************/
 @font-face{
-    font-family: 'courgette';
-    src: url('../fonts/Courgette/Courgette-Regular.ttf')
+    font-family: "courgette";
+    src: url("../fonts/Courgette/Courgette-Regular.ttf")
 }
 
 @font-face{
-    font-family: 'oswald';
-    src: url('../fonts/Oswald/Oswald-VariableFont_wght.ttf')
+    font-family: "oswald";
+    src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf")
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -30,7 +30,31 @@ p, span, li{
 /**********************
 NAV
 **********************/
+nav h1{
+    color: #ffffff;
+}
 
 /**********************
 HEADER
 **********************/
+.bg{
+    background-image: url("../img/header.jpg");
+    opacity: 0.25 ;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/**********************
+MAIN
+**********************/
+main{
+    color: #000000;
+}
+
+/**********************
+FOOTER
+**********************/
+footer h4{
+    color: #ffffff;
+}
