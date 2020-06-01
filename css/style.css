@@ -37,12 +37,22 @@ nav h1{
 /**********************
 HEADER
 **********************/
+
+
+
 .bg{
     background-image: url("../img/header.jpg");
     opacity: 0.25 ;
     background-position: center;
     background-size: cover;
-    color: #ffffff;
+    color: #ffffffff;
+    z-index: -1;
+}
+
+h1, h2{
+    color: #ffffffff;
+    opacity: 1;
+    z-index: 0;
 }
 
 /**********************
