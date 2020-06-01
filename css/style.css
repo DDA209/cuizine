@@ -1,14 +1,16 @@
 /**********************
 TESTS
 **********************/
-body{
-    background-color: #000000;
-}
+
 /**/
 
 /**********************
 PRINCIPAL
 **********************/
+body{
+
+}
+
 @font-face{
     font-family: "courgette";
     src: url("../fonts/Courgette/Courgette-Regular.ttf")
@@ -21,6 +23,7 @@ PRINCIPAL
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'courgette', sans-serif;
+    color: #ffffff;
 }
 
 p, span, li{
@@ -30,8 +33,7 @@ p, span, li{
 /**********************
 NAV
 **********************/
-nav h1{
-    color: #ffffff;
+nav{
 }
 
 /**********************
@@ -40,20 +42,34 @@ HEADER
 
 
 
-.bg{
+header{
     background-image: url("../img/header.jpg");
-    opacity: 0.25 ;
+    /* opacity: 0.25 ; */
     background-position: center;
     background-size: cover;
     color: #ffffffff;
     z-index: -1;
 }
 
-h1, h2{
+div.bg{
+    background-color: #000000a0;
+}
+
+.col-12{
+    background-color: red;
+}
+/*
+.figure{
+    color: blue;
+    opacity: 1;
+}
+
+ .bg .figure h1,.bg .figure h2{
     color: #ffffffff;
     opacity: 1;
-    z-index: 0;
-}
+    z-index: 1;
+} */
+
 
 /**********************
 MAIN
