@@ -1,7 +1,9 @@
 /**********************
 TESTS
 **********************/
+col-lg-9{
 
+}
 /**/
 
 /**********************
@@ -30,6 +32,10 @@ h1, h2, h3, h4, h5, h6, span, label{
 p, li, a, button{
     font-family: 'oswald', sans-serif;
     
+}
+
+ul{
+    list-style:none;
 }
 
 li a {
@@ -89,7 +95,7 @@ main div h3{
     color: #000000;
 }
 
-div.mainfooter{
+div.main{
     /* position: absolute ; */
     /* margin-top: 25rem; */
     /* left: 0px;
@@ -98,9 +104,15 @@ div.mainfooter{
 }
 
 .thumbarticle{
-    width: 210px;
-    height: auto;
+    width: 284px;
+    height: 160px;
 }
+
+ul.shareinmain{
+    display: inline;
+
+}
+
 /**********************
 FOOTER
 **********************/
