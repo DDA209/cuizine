@@ -7,9 +7,9 @@ TESTS
 /**********************
 PRINCIPAL
 **********************/
-body{
+/* body{
 
-}
+} */
 
 @font-face{
     font-family: "courgette";
@@ -21,16 +21,21 @@ body{
     src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf")
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, span, label{
     font-family: 'courgette', sans-serif;
-    color: #ffffff;
     font-weight: 100;
 }
 
 
 
-p, span, li{
+p, ul, li, a, button{
     font-family: 'oswald', sans-serif;
+    
+}
+
+li a {
+    text-decoration: underline;
+    color: inherit;
 }
 
 /**********************
@@ -39,7 +44,8 @@ NAV
 nav{
     position: static;
     z-index: 2;
-    border-bottom: 1px solid rgba(255, 255, 255, .25) 
+    border-bottom: 1px solid rgba(255, 255, 255, .15) 
+    color: #ffffff;
 }
 
 line{
@@ -52,17 +58,17 @@ line{
 /**********************
 HEADER
 **********************/
-header{
+.header{
     background-image: url("../img/header.jpg");
-    /* opacity: 0.25 ; */
     background-position: center;
     background-size: cover;
     color: #ffffffff;
-    position: absolute;
     left: 0px;
     right: 0px;
     top: 0px;
-    z-index: -1;
+    position: absolute ;
+    z-index: -1; 
+    /* margin-top: -5rem; /* inspiré de la correction de Jénaïc */
 }
 
 div.bg{
@@ -78,27 +84,17 @@ img#logo{
     height: auto;
 }
 
-/* .col-12{
-    background-color: red;
-} */
-/*
-.figure{
-    color: blue;
-    opacity: 1;
-}
-
- .bg .figure h1,.bg .figure h2{
-    color: #ffffffff;
-    opacity: 1;
-    z-index: 1;
-} */
-
-
 /**********************
 MAIN
 **********************/
 main{
     color: #000000;
+}
+
+main div h2{
+    font-family: 'courgette', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
 }
 
 /**********************
