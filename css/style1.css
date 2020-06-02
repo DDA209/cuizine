@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, span, label{
     color: #ffffff;
 }
 
-p, li, a, button{
+p, ul, li, a, button{
     font-family: 'oswald', sans-serif;
     
 }
@@ -40,30 +40,34 @@ li a {
 NAV
 **********************/
 nav{
-    position: absolute;
-    z-index: 1;
+    /* position: absolute;
+    z-index: 1; */
     border-bottom: 1px solid rgba(255, 255, 255, .15);
+    color: #ffffff;
 }
 
 /**********************
 HEADER
 **********************/
-.top{
+header{
     background-image: url("../img/header.jpg");
     background-position: center;
     background-size: cover;
-    /*margin-top: -5rem; /* Correction de Jénaïc */
-    position: static;
-    z-index: -1;
+    color: #ffffff;
+    /* left: 0px;
+    right: 0px;
+    top: 0px; */
+    /* position: absolute ;
+    z-index: -1;  */
+    /* margin-top: -5rem; /* Correction de Jénaïc */
 }
 
-header{
-    z-index: -0; 
-}
-
-div.bg{
+div.opacity{
     background-color: #000000cc;
-    padding-bottom: 6rem;
+    position: static;
+    z-index: 0;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
 }
 
 img#logo{
@@ -79,43 +83,25 @@ main{
 }
 
 main div h2{
-    font-family: 'oswald', sans-serif;
+    font-family: 'courgette', sans-serif;
+    color: #ffffff;
     font-weight: 100;
-    text-align: center;
-    color: #000000;
-}
-
-main div h3{
-    color: #000000;
 }
 
 div.mainfooter{
-    /* position: absolute ; */
-    /* margin-top: 25rem; */
-    /* left: 0px;
-    right: 0px;
-    top: 0px; */
+    position: absolute ;
+    margin-top: 20rem;
 }
 
-.thumbarticle{
-    width: 210px;
-    height: auto;
-}
 /**********************
 FOOTER
 **********************/
 footer{
     background-color: #000000;
-    
-
+    color: #ffffff;
+    margin: 0px;
 }
 
 footer div ul mi a{
     color: #000000;
 }
-
-i{
-    background-color: #ffffff;
-    padding: 5px;
-}
-
