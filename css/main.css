@@ -83,6 +83,10 @@ main{
     color: black;
 }
 
+main h6{
+    color: black;
+}
+
 main div h3{
     font-family: 'oswald', sans-serif;
     font-weight: 100;
@@ -100,18 +104,34 @@ main h3, main h4{
     height: 160px;
 }
 
-main .share{
-    display: inline;
 
+main .share ul{
+
+    text-decoration: none;
+    display: flex;
+}
+
+main .share li{
+
+}
+
+main i{
+
+    padding: 3px 5px;
+    border-radius: 1px;
+    margin-right: 2px;
 }
 
 main a{
     color: black;
+    text-decoration: none;
+    vertical-align: left;
 }
 
-main .share{
-
+main .btn{
+    
 }
+
 
 /**********************
 FOOTER
@@ -153,22 +173,14 @@ footer .share a{
     color: black;
 }
 
-
-
 footer .btn{
     background-color: black;
 }
 
-footer .email
+footer .email{
+    width:200px;
+}
 
-
-
-footer .categories{
-
-
-
-} 
-/*.email-and-share*/
 /**********************
 TESTS
 **********************/
