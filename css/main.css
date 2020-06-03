@@ -40,6 +40,15 @@ nav{
 /**********************
 MAIN
 **********************/
+main{
+    color: black;
+}
+
+main h6{
+    color: black;
+}
+
+
 main .share ul{
 
     text-decoration: none;
