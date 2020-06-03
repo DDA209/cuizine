@@ -109,6 +109,10 @@ main a{
     color: black;
 }
 
+main .share{
+
+}
+
 /**********************
 FOOTER
 **********************/
@@ -132,7 +136,7 @@ footer .share ul{
     display: flex;
 }
 
-i{
+footer i{
     background-color: white;
     padding: 3px 5px;
     border-radius: 1px;
