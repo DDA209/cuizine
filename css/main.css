@@ -27,11 +27,6 @@ p, li, a, button{
     text-decoration: none;
 }
 
-ul{
-}
-
-li a {
-}
 
 /**********************
 NAV
@@ -40,6 +35,33 @@ nav{
     position: absolute;
     z-index: 1;
     border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+/**********************
+MAIN
+**********************/
+main .share ul{
+
+    text-decoration: none;
+    display: flex;
+}
+
+
+main i{
+
+    padding: 3px 5px;
+    border-radius: 1px;
+    margin-right: 2px;
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+    vertical-align: left;
+}
+
+main .btn{
+    width: 100%;
 }
 
 /**********************
@@ -74,62 +96,6 @@ div.bg{
 img#logo{
     width: 80px;
     height: auto;
-}
-
-/**********************
-MAIN
-**********************/
-main{
-    color: black;
-}
-
-main h6{
-    color: black;
-}
-
-main div h3{
-    font-family: 'oswald', sans-serif;
-    font-weight: 100;
-    text-align: center;
-    color: black;
-}
-
-main h3, main h4{
-    color: black;
-}
-
-
-.thumb-article{
-    width: 284px;
-    height: 160px;
-}
-
-
-main .share ul{
-
-    text-decoration: none;
-    display: flex;
-}
-
-main .share li{
-
-}
-
-main i{
-
-    padding: 3px 5px;
-    border-radius: 1px;
-    margin-right: 2px;
-}
-
-main a{
-    color: black;
-    text-decoration: none;
-    vertical-align: left;
-}
-
-main .btn{
-    
 }
 
 

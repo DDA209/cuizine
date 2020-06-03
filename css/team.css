@@ -1,0 +1,23 @@
+/**********************
+MAIN
+**********************/
+main{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+main h5{
+    color: black;
+    font-weight: bold;
+}
+main h6{
+    font-family: 'oswald', sans-serif;
+    color: black;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
