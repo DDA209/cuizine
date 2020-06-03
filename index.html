@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="./css/homepage.css" />
-        <link rel="stylesheet" href="./css/style.css" />
 
     </head>
     <body>
@@ -19,7 +18,7 @@
                 
                 <div class="col-12 bg">
 
-                    <nav class="navbar navbar-expand-lg navbar-dark ml-n3 mr-n3">
+                    <nav class="navbar navbar-expand-md navbar-dark ml-n3 mr-n3">
                         <a class="navbar-brand" href="./index.html#"><h2>Cui'zine</h2></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -41,7 +40,6 @@
                             </ul>
                         </div>
                     </nav>
-
                     <header class="row header">
                         <div class="col-12">
                             <p>
@@ -63,26 +61,27 @@
 
         </div> <!-- .container .top -->
 
-        <main class="container main">
+        <main class="container">
 
             <div class="row">
 
                 <div class="col-12">
-                    <h2>Derniers articles</h2>
+                    <h3>Derniers articles</h3>
                 </div>
 
             </div>
 
             <div class="row">
 
-                <div class="col-lg-9">
+                <div class="col-12 col-lg-8">
+
                     <div class="row">
-                        <div class="col-12  col-md-5">
-                            <img src="img/articles/suzette/suzette-small.jpg" alt="Photo d'une crêpe suzette" class="thumbarticle" />
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="img/articles/suzette/suzette-small.jpg" alt="Photo d'une crêpe suzette" />
                         </div>
 
-                        <div class="col-12  col-md-7" id="article-suzette">
-                            <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                        <div class="col-12 col-md-8" id="article-suzette">
+                            <h4>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
                             <p>
                                 La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment et au sarrazin !
                             </p>
@@ -90,11 +89,11 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-12  col-md-5">
-                            <img src="./img/articles/metro/metro-small.jpg" alt="Photo d'une tarte aux fraise" class="thumbarticle" />
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="./img/articles/metro/metro-small.jpg" alt="Photo d'une tarte aux fraise" />
                         </div>
-                        <div class="col-12 col-md-7" id="article-metro">
-                            <h3>Le Métro dessert</h3>
+                        <div class="col-12 col-md-8" id="article-metro">
+                            <h4>Le Métro dessert</h4>
                             <p>
                                 Germain est ferrovipathe (ndlr : fan de train, son fils Maxime est patissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspirée du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis.
                             </p>
@@ -102,11 +101,11 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-12 col-md-5">
-                            <img src="./img/articles/vitaly/vitaly-small.jpg" alt="Photo d'un plat de pâtes" class="thumbarticle" />
+                        <div class="col-12 col-md-4">
+                            <img class="img-fluid" src="./img/articles/vitaly/vitaly-small.jpg" alt="Photo d'un plat de pâtes" />
                         </div>
-                        <div class="col-12 col-md-7" id="Vitaly-vegan">
-                            <h3>Vitaly, le végan italien</h3>
+                        <div class="col-12 col-md-8" id="Vitaly-vegan">
+                            <h4>Vitaly, le végan italien</h4>
                             <p>
                                 Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
                             </p>
@@ -114,7 +113,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 d-none d-md-block">
+                <div class="col-lg-4 d-none d-lg-block">
                     <div>
                         <span>Recherche</span>
                     </div>          
@@ -123,7 +122,7 @@
                     </div>          
                     <div>
                         <span>Partager</span>
-                        <ul class="shareinmain">
+                        <ul class="share">
                             <li></li><a href="#" id="facebook"><i class="fab fa-facebook"></i><span class="sr-only">Facebook</span></a>
                             <li><a href="#" id="instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
                             <li><a href="#" id="youtube"><i class="fab fa-youtube"></i><span class="sr-only">Youtube</span></a>
@@ -135,54 +134,56 @@
             </div>
 
             <div class="row">
-                <div class="col-12" id="previous-articles">
-                    <a href="#">« Voir les articles précédents</a>
+                <div class="col-12 previous-articles">
+                    <a href="#">&laquo;<!--«--> Voir les articles précédents</a>
                 </div>
             </div>
 
         </main>
         
         <footer class="container-fluid">
-            <div class="container">
 
-                <div class="row">
-                    <div class="col-12 col-lg-4" id="categories">
-                        <h4>Catégories</h4>
-                        <ul>
-                            <li><a href="#">Revues</a></li>
-                            <li><a href="#">Recettes</a></li>
-                            <li><a href="#">Découvertes</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-4" id="Archives">
-                        <h4>Catégories</h4>
-                        <ul>
-                            <li><a href="#">2019</a></li>
-                            <li><a href="#">2018</a></li>
-                            <li><a href="#">2017</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-4" id="email-share">
-                        <div class="form-group">
-                            <label for="newsletter-register">Newsletter</label>
-                            <input type="email" class="form-control" id="newsletter-register" aria-describedby="Email..." />
-                            <button type="submit" class="btn btn-dark">S'inscrire</button>
-                        </div>
-                        <div>
-                            <span>Partager</span>
-                            <div>
-                                <ul>
-                                    <li></li><a href="#" id="facebook"><i class="fab fa-facebook"></i><span class="sr-only">Facebook</span></a>
-                                    <li><a href="#" id="instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
-                                    <li><a href="#" id="youtube"><i class="fab fa-youtube"></i><span class="sr-only">Youtube</span></a>
-                                    <li><a href="#" id="twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- .row-->
+            <div class="row">
 
-            </div>
+                <div class="col-12 col-lg-4 categories">
+                    <h5>Catégories</h5>
+                    <ul>
+                        <li><a href="#">Revues</a></li>
+                        <li><a href="#">Recettes</a></li>
+                        <li><a href="#">Découvertes</a></li>
+                    </ul>
+                </div> <!-- /.categories -->
+
+                <div class="col-12 col-lg-4 Archives">
+                    <h5>Archives</h5>
+                    <ul>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2017</a></li>
+                    </ul>
+                </div> <!-- /.archives -->
+                
+                <div class="col-12 col-lg-4 email-and-share">
+                    <div class="form-group">
+                        <h5>Newsletter</h5>
+                        <label class="sr-only" for="newsletter-register">Email</label>
+                        <input type="email" class="form-control" id="newsletter-register" placeholder="Email..." />
+                    </div>
+                    <button type="submit" class="btn btn-dark">S'inscrire</button>
+
+                    <div class="share">
+                        <h6>Partager</h6>
+                            <ul>
+                                <li><a href="#" class="facebook"><i class="fab fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
+                                <li><a href="#" class="instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
+                                <li><a href="#" class="youtube"><i class="fab fa-youtube"></i><span class="sr-only">Youtube</span></a></li>
+                                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
+                            </ul>
+                    </div>
+
+                </div> <!-- /.email-and-share -->
+            </div> <!-- /.row-->
+
         </footer>
 
         <!-- JavaScript zone-->
