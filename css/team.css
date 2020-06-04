@@ -1,4 +1,10 @@
 /**********************
+HEADER
+**********************/
+.top{
+    background-image: url("../img/team/team.jpg");
+}
+/**********************
 MAIN
 **********************/
 main h5{
@@ -11,9 +17,12 @@ main figure h6{
     color: black;
 }
 
-main img{
+main img.people{
     width: 150px;
     height: auto;
     border-radius: 50%;
 }
 
+main a{
+    text-decoration: none;
+}

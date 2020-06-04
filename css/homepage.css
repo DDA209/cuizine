@@ -1,4 +1,10 @@
 /**********************
+HEADER
+**********************/
+.top{
+    background-image: url("../img/header.jpg");
+}
+/**********************
 MAIN
 **********************/
 main div h3{
@@ -11,12 +17,3 @@ main div h3{
 main h3, main h4{
     color: black;
 }
-
-/*A corriger*/
-/* .thumb-article{
-    width: 284px;
-    height: 160px; */
-}
-
-
-

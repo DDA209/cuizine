@@ -1,10 +1,6 @@
 /**********************
 PRINCIPAL
 **********************/
-/* body{
-
-} */
-
 @font-face{ /* à mettre dans le head du CSS */
     font-family: "courgette";
     src: url("../fonts/Courgette/Courgette-Regular.ttf")
@@ -27,7 +23,6 @@ p, li, a, button{
     text-decoration: none;
 }
 
-
 /**********************
 NAV
 **********************/
@@ -46,18 +41,24 @@ main{
     padding-bottom: 40px;
 }
 
+.top{
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: none;
+    /*margin-top: -5rem; /* Correction de Jénaïc */
+    position: static;
+    z-index: -1;
+}
+
 main h6{
     color: black;
 }
 
-
 main .share ul{
-
     text-decoration: none;
     display: flex;
     padding-left: 0px;
 }
-
 
 main i{
 
@@ -79,22 +80,6 @@ main .btn{
 /**********************
 HEADER
 **********************/
-.top{
-    background-image: url("../img/header.jpg");
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: none;
-    /* text-align: center; */
-
-    /* background-size: cover; Ne correspond pas à ce qui est demandé*/
-
-    background:  url("../img/header.jpg") center center none;
-
-    /*margin-top: -5rem; /* Correction de Jénaïc */
-    position: static;
-    z-index: -1;
-}
-
 header{
     position: relative;
     z-index: -0; 
@@ -109,7 +94,6 @@ img#logo{
     width: 80px;
     height: auto;
 }
-
 
 /**********************
 FOOTER
@@ -158,10 +142,3 @@ footer .btn{
 footer .email{
     width:200px;
 }
-
-/**********************
-TESTS
-**********************/
-
-
-/**/

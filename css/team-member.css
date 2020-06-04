@@ -1,7 +1,17 @@
 /**********************
+HEADER
+**********************/
+.top{
+    background-image: url("../img/team/team.jpg");
+}
+
+/**********************
 MAIN
 **********************/
-main h6{
-    color: black;
-    font-weight: bold;
+main img.people{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
 }
