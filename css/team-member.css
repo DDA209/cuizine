@@ -5,6 +5,10 @@ HEADER
     background-image: url("../img/team/team.jpg");
 }
 
+div.bg{
+    padding-bottom: 120px;
+}
+
 /**********************
 MAIN
 **********************/
@@ -14,4 +18,8 @@ main img.people{
     border-radius: 50%;
     float: left;
     margin-right: 15px;
+}
+
+main p{
+    text-align: justify; /* juste pour le plaisir des yeux ;) */
 }

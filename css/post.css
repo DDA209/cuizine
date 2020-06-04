@@ -2,5 +2,20 @@
 HEADER
 **********************/
 .top{
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/articles/suzette/suzette-header.jpg");
+}
+
+.big-letter{
+    display: flex;
+    float: left;
+}
+
+header h2{
+    background-color: #27180ad5;
+}
+
+div.bg{
+    /* padding-bottom: 0px;
+    padding-left: -1em;
+    padding-right: 1em; */
 }

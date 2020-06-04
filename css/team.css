@@ -4,6 +4,11 @@ HEADER
 .top{
     background-image: url("../img/team/team.jpg");
 }
+
+div.bg{
+    padding-bottom: 120px;
+}
+
 /**********************
 MAIN
 **********************/
