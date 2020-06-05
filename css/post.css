@@ -21,35 +21,25 @@ div.bg-head{
 /**********************
 MAIN
 **********************/
-main h4{
+main h4, main h5{
     color: black;
 }
 
-.big-letter{
+.emancipation{
     float: left;
-    
 }
 
-/* main .head-of-post{
-    display: block;
-
-} */
-
-.post-zone p{
-    /* padding-top: 2em; */
+.lettrine{
+    color: gray;
+    font-size: 3em;
+    font-family: 'oswald', sans-serif;
 }
-/* 
-main .head-of-post{
-    border-top: 1px solid rgb(255, 0, 0);
-    border-bottom: 1px solid rgb(255, 0, 0);
-} */
 
 .head-of-post img.people{
     width: 150px;
     height: auto;
     border-radius: 50%;
     float: left;
-    /* margin-right: 15px; */
 }
 
 main .discussion img{
@@ -57,21 +47,34 @@ main .discussion img{
     height: auto;
     border-radius: 50%;
     float: left;
-    /* margin-right: 15px; */
 }
 
 .v-marger-img-people {
-    height: 150px;
-    /* width: 100px; */
+    min-height: 150px;
+}
+
+.v-marger-img-logo {
+    min-height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 main .answer img{
     opacity: 50%;
-    /* margin-right: 15px; */
 }
 
+main .answer{
+    margin-left: 100px;
+}
 
+.discussion{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
 
+.discussion p{
+    margin-bottom: 0px;
+}
 /* .head-of-post{
     margin-bottom: 100px;
 } */
