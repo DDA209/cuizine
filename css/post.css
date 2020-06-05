@@ -23,6 +23,8 @@ div.bg-head{
 /**********************
 MAIN
 **********************/
+
+
 main h4{
     color: black;
 }
@@ -32,9 +34,38 @@ main h4{
     float: left;
 }
 
-    display: flex;
+main .head-of-post{
+    display: block;
+    float: none;
 }
 
 main p{
-    padding-top: 2em;
+    /* padding-top: 2em; */
+}
+
+main .head-of-post{
+    border-top: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+main img.people{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    /* margin-right: 15px; */
+}
+
+main .discussion img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    /* margin-right: 15px; */
+}
+
+
+main .answer img{
+    opacity: 50%;
+    /* margin-right: 15px; */
 }
