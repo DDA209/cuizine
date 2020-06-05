@@ -5,8 +5,6 @@ HEADER
     background-image: url("../img/articles/suzette/suzette-header.jpg");
 }
 
-
-
 header h2{
     background-color: #27180ad5;
 }
@@ -23,32 +21,30 @@ div.bg-head{
 /**********************
 MAIN
 **********************/
-
-
 main h4{
     color: black;
 }
 
 .big-letter{
-    display: flex;
     float: left;
+    
 }
 
-main .head-of-post{
+/* main .head-of-post{
     display: block;
-    float: none;
-}
 
-main p{
+} */
+
+.post-zone p{
     /* padding-top: 2em; */
 }
-
+/* 
 main .head-of-post{
     border-top: 1px solid rgb(255, 0, 0);
     border-bottom: 1px solid rgb(255, 0, 0);
-}
+} */
 
-main img.people{
+.head-of-post img.people{
     width: 150px;
     height: auto;
     border-radius: 50%;
@@ -64,8 +60,18 @@ main .discussion img{
     /* margin-right: 15px; */
 }
 
+.v-marger-img-people {
+    height: 150px;
+    /* width: 100px; */
+}
 
 main .answer img{
     opacity: 50%;
     /* margin-right: 15px; */
 }
+
+
+
+/* .head-of-post{
+    margin-bottom: 100px;
+} */
