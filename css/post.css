@@ -39,7 +39,7 @@ main h4, main h5{
     }
 
     .lettrine-ghost{
-        /* background-color: brown; */
+        /* background-color: red; */
         height: 24px;
         width: 19px;
         float: left;
@@ -59,6 +59,7 @@ main .discussion img{
     height: auto;
     border-radius: 50%;
     float: left;
+    margin-right: 10px;
 }
 
 .v-marger-img-people {
@@ -67,8 +68,7 @@ main .discussion img{
 
 .v-marger-img-logo {
     min-height: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
 }
 
 main .answer img{
@@ -80,7 +80,7 @@ main .answer{
 }
 
 .discussion{
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 120px;
 }
 
