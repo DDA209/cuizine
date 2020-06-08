@@ -25,15 +25,27 @@ main h4, main h5{
     color: black;
 }
 
-.emancipation{
-    float: left;
-}
+    /*Placement de la lettrine*/
+    .emancipation{
+        float: left;
+        position: absolute;
+    }
 
-.lettrine{
-    color: gray;
-    font-size: 3em;
-    font-family: 'oswald', sans-serif;
-}
+    .lettrine{
+        color: gray;
+        font-size: 3em;
+        font-family: 'oswald', sans-serif;
+        margin-top: 0.12em;
+    }
+
+    .lettrine-ghost{
+        /* background-color: brown; */
+        height: 24px;
+        width: 19px;
+        float: left;
+    }
+    /* /placement de la lettrine */
+
 
 .head-of-post img.people{
     width: 150px;

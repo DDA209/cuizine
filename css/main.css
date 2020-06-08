@@ -53,7 +53,7 @@ img#logo{
 .top{
     background-position-x: center;
     background-position-y: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     /*margin-top: -5rem; /* Correction de Jénaïc */
     position: static;
     z-index: -1;
